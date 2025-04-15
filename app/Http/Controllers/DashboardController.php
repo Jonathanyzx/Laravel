@@ -47,6 +47,8 @@ class DashboardController extends Controller
         return view('dashboard.admin', compact('stats', 'recentStudents', 'recentCourses', 'recentEnrollments'));
     }
 
+
+    //dashboard of the teachers
     private function teacherDashboard(): View
     {
         /** @var User $teacher */
